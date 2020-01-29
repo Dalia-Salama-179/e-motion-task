@@ -183,17 +183,20 @@
         padding: 0;
         border: 1px solid #ddd;
         background: #ffffff;
-
+        max-height: 250px;
+        overflow: auto;
     }
     .cart-list li {
         padding: 10px;
         position: relative;
+        text-align: left;
     }
     .cart-list li > div {
         display: flex;
     }
     .cart-list li img {
         width: 50px;
+        margin-right: 10px;
     }
     .cart-list li:not(:last-of-type) {
         border-bottom: 1px solid #ddd;
